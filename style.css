@@ -1,0 +1,140 @@
+  body {
+font-family: "Audiowide", sans-serif;
+background-attachment:scroll;
+background-size:cover;
+  }
+body {
+
+
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  padding: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  
+  margin-bottom: 10px;
+  border-radius:30px;
+}
+
+input[type="password"] {
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 0px;
+  border-radius:30px;
+}
+input[type="text"] {
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 0px;
+  border-radius:30px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Additional colors */
+
+label {
+  color: #333;
+}
+
+fieldset:nth-child(odd) {
+  background-color: #AD58;
+}
+
+fieldset:nth-child(even) {
+  background-color: #e0e0e0;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+nav ul li a:hover {
+  color: #ccc;
+}

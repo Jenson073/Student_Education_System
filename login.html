@@ -1,0 +1,65 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <link rel="stylesheet" href="style2.css">
+  <script src="script.js"></script>
+  <title>Login</title>
+</head>
+<body>
+  <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyR56jy5pX0cSD8O3jBApnWqDfKdTEXvvWQ&usqp=CAU">
+    <hr style="height:5px;" color="#333">
+    <a href="about.html"><button><strong>About</strong></button></a>
+    <a href="contact.html"><button><strong>Contact</strong></button></a><br>
+    <hr style="height:5px" color="#333"><br>
+
+    <br>
+    <div class="A1">
+      <table>
+        <tr>
+          <td>
+            <form name="f1" onsubmit="return validateForm()" method="post">
+              <br>
+<div class="u">
+              <label>User Name</label><br><br>
+              <input type="text" name="fname" placeholder="Enter your Username" required><br><br>
+              <label>Password</label><br><br>
+              <input type="password" name="password" placeholder="Enter your Password" required><br><br>
+              <a href="newuser registration.html" target="_blank">new user? Register here</a><br><br>
+              <a href="forgot password.html">Forgot password?</a><br><br>
+<button type="submit"><strong>Login</strong></button>              
+</div><br>
+              
+            </form>
+            
+          </td>
+        </tr>
+      </table>
+    </div>
+    <hr style="height:5px" color="#333">
+    <footer>
+      <h3 style="color:yellow;"><i>Follow us on</i></h3>
+      <a href="https://www.instagram.com/"><img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png" style="float:left;width:25px;height:25px;"></a>
+      <a href="https://www.facebook.com/"><img src="https://cdn-icons-png.flaticon.com/512/1177/1177566.png" style="float:left;width:25px;height:25px;"></a>
+      <a href="https://www.twitter.com/"><img src="https://cdn-icons-png.flaticon.com/512/1177/1177491.png" style="float:left;width:25px;height:25px;"></a>
+      <a href="https://www.youtube.com/"><img src="https://cdn-icons-png.flaticon.com/512/2965/2965363.png" style="float:left;width:25px;height:25px;"></a>
+      <br>
+      <p style="text-align:center;">&copy; 2023 ALL RIGHTS RESERVED</p>
+    </footer>
+    <hr style="height:5px" color="#333">
+  </body>
+</html>
+
+<script>
+  function validateForm() {
+    var username = document.forms["f1"]["fname"].value;
+    var password = document.forms["f1"]["password"].value;
+if ((username==="Baasith" || username==="Madhan" || username==="Jenson") && password ==="12345"){
+localStorage.setItem("name", username);
+    window.location.href = "home.html";
+    return false;}
+else {
+      alert("Username and password are incorrect");
+      return false;
+    }
+  }
+</script>

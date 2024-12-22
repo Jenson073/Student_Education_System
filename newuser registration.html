@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>New User Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body  >
+  <header>
+    <h1>Learning platform</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>New User Registration</h2>
+    <p>Please fill out the form below to register for the learning platform.</p>
+    <form action="profile.php" method="POST">
+      <fieldset>
+        <legend>Account Information</legend>
+        <table>
+          <tr>
+            <td><label for="username">Username:</label></td>
+            <td><input type="text" name="username" placeholder='Enter the username' required></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password"  name="password"  placeholder="Enter strong password" required></td>
+          </tr>
+          <tr>
+            <td><label for="confirm_password">Confirm Password:</label></td>
+            <td><input type="password"  name="confirm_password" placeholder='confirm your password' required></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <table>
+          <tr>
+            <td><label for="first_name">First Name:</label></td>
+            <td><input type="text"  name="first_name" placeholder='Enter your first name' required></td>
+          </tr>
+          <tr>
+            <td><label for="last_name">Last Name:</label></td>
+            <td><input type="text" name="last_name" placeholder='Enter your last name' required></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email"  name="email" placeholder="example@gmail.com" required></td>
+          </tr>
+          <tr>
+            <td><label for="phone">Phone:</label></td>
+            <td><input type="tel"  name="phone" required></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>User Type</legend>
+        <ul>
+          <li><input type="radio" name="scholarship" > For Scholarship</li>
+          <li><input type="radio"  name="disabled" >Disabled students</li>
+          <li><input type="radio"  name="parents" >Parents</li>
+        </ul>
+        <fieldset>
+  <legend style="color:red;margin-left:20px">Terms and Conditions</legend>
+  <p>Please read and accept the terms and conditions to proceed:</p>
+  <label for="terms_conditions">
+    <input type="checkbox" id="terms_conditions" name="terms_conditions" required>
+    I accept the <a href="terms.html" target="_blank">terms and conditions</a>.
+  </label>
+</fieldset>
+      </fieldset>
+      <input type="submit" value="Register">
+
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2023  ALL RIGHTS RESERVED</p>
+  </footer>
+</body>
+</html>

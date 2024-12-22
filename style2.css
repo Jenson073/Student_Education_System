@@ -1,0 +1,92 @@
+body {
+font-family: "Audiowide", sans-serif;
+background-attachment:scroll;
+background-size:cover;
+background:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHyR56jy5pX0cSD8O3jBApnWqDfKdTEXvvWQ&usqp=CAU;
+}
+h3.a{
+margin-left:150px;
+}
+h3.b{
+margin-left:700px;
+}
+.a {
+margin-left:250px;
+  border: 5px ridge black;
+border-radius: 12px;
+   text-align: center;
+padding: 40;
+}
+.aa1 {
+margin-left:100px;
+  border: 5px ridge black;
+border-radius: 12px;
+   text-align: center;
+padding: 40 66;
+}
+.a11 {
+margin-left:400px;
+  border: 5px ridge black;
+border-radius: 12px;
+   text-align: center;
+padding: 40 100;
+}
+.b11 {
+margin-left:100px;
+  border: 5px ridge black;
+border-radius: 12px;
+   text-align: center;
+padding: 40 70;
+}
+.b {
+  border: 5px ridge black;
+border-radius: 12px;
+   text-align: center;
+padding: 70px;
+}
+.c {
+  border: 5px ridge black;
+border-radius: 12px;
+ background-color:transparent;
+}
+.aa {
+ background-color:black;
+padding: 10px;
+}
+footer {
+  background-color: #333;
+  color: yellow;
+  padding: 10px;
+}
+button
+{
+background-color: transparent;
+  border: 3px solid black;
+border-radius: 7px;
+font-size: 16px;
+color:black;
+font-family: "Audiowide", sans-serif;
+font-weight:500;
+margin:1 10;
+}
+.aaa{
+ background-color: #333;
+  padding: 12px;
+}
+form{
+text-align: center;  
+ font-style: italic;
+font-variant: small-caps; 
+border: 5px ridge black;
+border-radius: 12px;
+margin-right: 300px;
+margin-left: 300px;
+}
+.A1{
+margin-left:300px;
+border:transparent;
+font-size:30px;
+}
+.u
+{
+padding:40 70;}
